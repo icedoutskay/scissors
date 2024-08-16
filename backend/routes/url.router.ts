@@ -1,5 +1,5 @@
 import express from "express";
-import urlController from "../controlllers/url.controller";
+import urlController from "../controllers/url.controller";
 import { Authenticate, AuthenticatedOnly } from "../middlewears/authenticated";
 import { limiter } from ".";
 import Cache from "../middlewears/cache";

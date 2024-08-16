@@ -5,9 +5,9 @@ import config from "../config";
 const redisClient = createClient({
 	password: config.REDIS.PASSWORD,
 	socket: {
-		host: config.REDIS.HOST,
-		port: config.REDIS.PORT,
-	},
+        host: 'redis-13614.c325.us-east-1-4.ec2.redns.redis-cloud.com',
+        port: 13614
+    },
 });
 
 redisClient.on("error", (err: any) => console.error("Redis Client Error", err));
