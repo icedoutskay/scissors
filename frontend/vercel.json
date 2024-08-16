@@ -1,12 +1,5 @@
 { 
     "routes": [
         { "src": "/[^.]+", "dest": "/", "status": 200 }
-    ],
-    "builds": [
-        {
-          "src": "src/index.ts",
-          "use": "@vercel/node",
-          "config": { "outputDirectory": "public" }
-        }
-      ]
+    ]
  }
