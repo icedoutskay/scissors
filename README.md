@@ -9,7 +9,7 @@ Scissor is a URL shortening service that allows users to create shortened links,
 3. [Technologies Used](#technologies-used)
 4. [Usage](#usage)
     - [Web Interface](#web-interface)
-    - [API](#api)
+      
 5. [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -40,11 +40,7 @@ Scissor is a URL shortening service that allows users to create shortened links,
 
 -   Visit the deployed application at [scissor-capstone-project-five.vercel.app](https://scissor-capstone-project-five.vercel.app/)
 
-#### API
 
--   Send requests to the backend at [https://icedoutskay.tech/api](https://icedoutskay.tech/api)
--   Visit the deployed documentation at [https://icedoutskay.tech/api/docs](https://icedoutskay.tech/api/docs)
--   Vist a shortened url at [https://.tech/:id](https://icedoutskay.tech/google)
 
 ## Installation
 
