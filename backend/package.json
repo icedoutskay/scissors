@@ -10,7 +10,7 @@
     "start:cronjob": "node build/services/cronjobs/run.js",
     "start:worker": "node build/services/worker.js",
     "start:prod": "node build/index.js",
-    "start": "npm run start:prod"
+    "start": "node dist/index.ts"
   },
   "keywords": [],
   "author": "",
